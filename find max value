@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main
+int main()
 {
-    int tmp, i, array[10]= {3,6,1,4,9,7,5}
+    int tmp, i, array[10]= {3,6,1,4,9,7,5};
     tmp = array[0];
     for(i=0; i<10; i++)
   {    
-        if(dizi[i] > tmp)
+        if(array[i] > tmp)
      {
-         tmp= dizi[i];
+         tmp= array[i];
      }
    } 
 printf("max value = %d", tmp);
